@@ -120,6 +120,12 @@ $ sail artisan key:generate
 $ sail artisan migrate
 ```
 
+初期データ（カテゴリ）を登録
+
+```bash
+$ sail artisan db:seed
+```
+
 7. **フロントエンドのビルド**
 
 NPM依存パッケージをインストール
